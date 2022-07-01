@@ -15,7 +15,7 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/psyche_defconfig
