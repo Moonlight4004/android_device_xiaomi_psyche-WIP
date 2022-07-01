@@ -20,6 +20,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     SettingsResPsyche \
+    FrameworksResPsyche
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
