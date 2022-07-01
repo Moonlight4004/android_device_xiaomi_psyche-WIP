@@ -25,3 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := psyche
 
 # Inherit from the proprietary version
 include vendor/xiaomi/psyche/BoardConfigVendor.mk
+
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
