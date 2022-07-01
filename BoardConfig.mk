@@ -19,6 +19,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/psyche_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := psyche
